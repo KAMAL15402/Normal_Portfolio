@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamal Singh Rawat | Full Stack Developer</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Your Style -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <img src="profile.png" alt="Profile Picture" class="profile-img">
+    <h1>Hi, I'm <span class="highlight">Kamal Singh Rawat</span></h1>
+    <p class="hero-line">I build scalable cloud-native applications 🚀</p>
+    <p class="typing">Full Stack Developer | Backend Developer | Cloud Enthusiast</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/KamalSinghRawat" target="_blank" class="btn">GitHub</a>
+      <a href="https://linkedin.com/in/kamal-singh-rawat-5a78701ba" target="_blank" class="btn">LinkedIn</a>
+      <a href="#contact" class="btn primary">Hire Me</a>
+      <a href="#" class="btn">Download Resume</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="about" class="card reveal light-blue">
+  <h2>👨‍💻 About Me</h2>
+  <p>From solving my first algorithmic puzzle to building scalable cloud-native systems, my journey in tech has been fueled by curiosity and creativity. 
+    I specialize in developing robust APIs, Dockerized applications, and full-stack web solutions. During my time at Philips Healthcare, 
+    I built secure healthcare modules ensuring global compliance. I am passionate about creating impact through technology, 
+    and I am always ready for new challenges and opportunities.</p>
+</section>
+
+<section id="tech-stack" class="card reveal white">
+  <h2>🛠 Tech Stack</h2>
+  <div class="stack">
+    <div class="mini-card">🖥️ Languages<br>C++, Java, Python, C#</div>
+    <div class="mini-card">🌐 Frontend<br>Angular, JavaFX</div>
+    <div class="mini-card">⚙️ Backend<br>Django, FastAPI, Node.js</div>
+    <div class="mini-card">💾 Database<br>PostgreSQL, MongoDB, MySQL</div>
+    <div class="mini-card">🔧 Tools<br>Git, Docker, Docker Compose</div>
+  </div>
+</section>
+
+<section id="projects" class="card reveal lavender">
+  <h2>📁 Projects</h2>
+  <div class="project-cards">
+    <div class="project" onclick="toggleProject(this)">
+      <h3>📁 Employee Management API</h3>
+      <div class="project-details">
+        <p>Built scalable REST APIs with Django REST Framework, PostgreSQL, and Docker. Integrated Swagger for API documentation and health checks.</p>
+      </div>
+    </div>
+    <div class="project" onclick="toggleProject(this)">
+      <h3>📁 UAT Contact Management System</h3>
+      <div class="project-details">
+        <p>Secure CRUD operations for anonymized patient data using C#, Java, Angular, and JWT authentication modules.</p>
+      </div>
+    </div>
+    <div class="project" onclick="toggleProject(this)">
+      <h3>📁 Restaurant Management Console</h3>
+      <div class="project-details">
+        <p>Full desktop application for restaurant order processing and inventory management, built with JavaFX and MySQL.</p>
+      </div>
+    </div>
+    <div class="project" onclick="toggleProject(this)">
+      <h3>📁 Student Attendance Management</h3>
+      <div class="project-details">
+        <p>Simple yet effective command-line based attendance system built with Python and SQLite for persistent data storage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="card reveal dark">
+  <h2>🚀 Services</h2>
+  <div class="stack">
+    <div class="mini-card dark-mini">🛠 API Development</div>
+    <div class="mini-card dark-mini">🚢 Docker & CI/CD Setup</div>
+    <div class="mini-card dark-mini">🗄️ Database Design</div>
+    <div class="mini-card dark-mini">🌐 Full Stack Web Apps</div>
+  </div>
+</section>
+
+<section id="achievements" class="card reveal white">
+  <h2>🏆 Achievements</h2>
+  <ul>
+    <li>✅ Solved 350+ questions on LeetCode</li>
+    <li>✅ Achieved 900+ rating at Codeforces</li>
+    <li>✅ Completed Internship at Philips Healthcare</li>
+  </ul>
+</section>
+
+<section id="contact" class="card reveal light-blue">
+  <h2>📞 Contact Me</h2>
+  <form action="https://formspree.io/f/xwkdgqay" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 Kamal Singh Rawat | Built with 💙</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
